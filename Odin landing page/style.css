@@ -1,13 +1,32 @@
-body 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
 
 .header {
+    margin: 0;
+    background-color: #570505ec;
+    height: 300px;
     display: flex;
     flex: 1;
-    background-color: #1F2937;
-    
 }
 
-.logo {
-    height: 10px;
-    width: 70px;
+.logo img {
+    height: 90px;
+    width: 100px;
 }
+
+.headerimg img {
+    height: 200px;
+    width: 300px;
+}
+
