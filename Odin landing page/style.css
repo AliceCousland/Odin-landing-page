@@ -24,6 +24,7 @@ a {
 .info {
     display: flex;
     flex-direction: column;
+    gap: 16px
 }
 
 /* upper part of header */
@@ -98,7 +99,22 @@ li {
     height: 200px ;
     width: 300px;
     padding-top: 100px;
+    margin-left: 15px;
     display: inline;
 }
 /* lower part of header */
 /* info */
+.header2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: inline-flex;
+    flex-flow: row wrap;
+    height: 100px; 
+    width: auto;
+}
+.header2 h4 {
+    width: 730px;
+    justify-content: center;
+    align-items: center;
+}
