@@ -5,6 +5,16 @@ body {
     padding: 0;
 }
 
+button {
+    width: auto;
+    font-size: 12px;
+    font-weight:bold;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 10px 15px
+}
+
 a {
     text-decoration: none;
     color: #e5e7eb;
@@ -23,7 +33,8 @@ a {
 .info {
     display: flex;
     flex-direction: column;
-    gap: 16px
+    gap: 16px;
+    margin-bottom: 30px;
 }
 
 /* upper part of header */
@@ -86,14 +97,7 @@ li {
     color: #e5e7eb;
 }
 .headertext button {
-    width: auto;
-    font-size: 12px;
-    font-weight:bold;
-    color: #e5e7eb;
-    background-color: #3882f6;
     border-color: #3882f6;
-    border-radius: 10px;
-    padding: 10px 15px
 }
 
 .headerimg img {
@@ -146,6 +150,33 @@ li {
     height: auto;
     flex: 0 0 250px;
 }
-/*info /*
-
-
+/*info */
+/* quote */
+.quote {
+    padding: 2px;
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote p {
+    color: #1f2937 ;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    height: 200px;
+    width: 750px;
+    display: flex;
+    flex: 0 0 200px;
+    text-align: left;
+}
+.quote h4 {
+    display: inline-flex;
+}
+/* quote */
+/* call to action */
+.action button {
+    border-color: white;
+}
