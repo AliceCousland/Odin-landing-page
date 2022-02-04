@@ -14,11 +14,16 @@ a {
     display: flex;
     flex-direction: column;
     margin: 0;
-    background-color: #570505ec;
+    background-color: #140f42ec;
     border-bottom: 4px solid rgb(2, 2, 2);
     height: 600px;
     padding: 2px;
     gap: 16px
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
 }
 
 /* upper part of header */
@@ -79,6 +84,16 @@ li {
     line-height: 10%;
     color: #e5e7eb;
 }
+.headertext button {
+    width: auto;
+    font-size: 12px;
+    font-weight:bold;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-radius: 10px;
+    padding: 10px 15px
+}
 .headerimg img {
     height: 200px ;
     width: 300px;
@@ -86,3 +101,4 @@ li {
     display: inline;
 }
 /* lower part of header */
+/* info */
